@@ -14,6 +14,8 @@ import PageTransition from "@/components/PageTransition";
 import BackToTop from "@/components/BackToTop";
 import ScrollProgress from "@/components/ScrollProgress";
 import Chatbot from "@/components/Chatbot";
+import NeedinLogo from "@/assets/needin-logo.png";
+import HeroImage from "@/assets/hero-image.jpg";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Highlights from "./pages/Highlights";
@@ -71,8 +73,8 @@ const App = () => {
   useEffect(() => {
     // Preload critical assets
     const images = [
-      "/src/assets/needin-logo.png",
-      "/src/assets/hero-image.jpg",
+      NeedinLogo,
+      HeroImage,
     ];
 
     Promise.all(

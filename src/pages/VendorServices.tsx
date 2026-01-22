@@ -9,6 +9,7 @@ import DownloadApp from "@/components/DownloadApp";
 import ServiceCategories from "@/components/ServiceCategories";
 import ComingSoonBanner from "@/components/3d/ComingSoonBanner";
 import { motion } from "framer-motion";
+import heroImage from "@/assets/hero-image.jpg";
 import VendorReviews from "@/components/VendorReviews";
 
 const features = [
@@ -130,7 +131,7 @@ const VendorServices = () => {
                             >
                                 <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-3xl rotate-3 opacity-20" />
                                 <img
-                                    src="/src/assets/hero-image.jpg"
+                                    src={heroImage}
                                     alt="Professional at work"
                                     className="relative rounded-3xl shadow-2xl object-cover w-full h-[600px] hover:scale-[1.02] transition-transform duration-500"
                                     onError={(e) => {

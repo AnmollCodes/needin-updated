@@ -9,6 +9,7 @@ import DownloadApp from "@/components/DownloadApp";
 import ServiceCategories from "@/components/ServiceCategories";
 import ComingSoonBanner from "@/components/3d/ComingSoonBanner";
 import { motion } from "framer-motion";
+import VendorReviews from "@/components/VendorReviews";
 
 const features = [
     {
@@ -228,6 +229,8 @@ const VendorServices = () => {
                         </div>
                     </div>
                 </section>
+
+                <VendorReviews />
 
                 <DownloadApp />
             </main>

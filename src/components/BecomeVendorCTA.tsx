@@ -73,16 +73,7 @@ const BecomeVendorCTA = () => {
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </Link>
-                  <a href="https://wa.me/919286483640" target="_blank" rel="noopener noreferrer">
-                    <Button 
-                      size="lg" 
-                      variant="outline" 
-                      className="w-full sm:w-auto border-2 border-border hover:border-primary/50 rounded-xl px-8 py-6"
-                    >
-                      <MessageCircle className="w-4 h-4 mr-2" />
-                      WhatsApp: +91 9286783640
-                    </Button>
-                  </a>
+                  
                   <a href="https://wa.me/919286783640" target="_blank" rel="noopener noreferrer">
                     <Button 
                       size="lg" 
